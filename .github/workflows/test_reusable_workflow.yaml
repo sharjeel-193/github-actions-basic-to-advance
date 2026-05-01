@@ -1,10 +1,9 @@
-name: Call Reusable CI Workflow
-
+name: call-reusable-workflow
 on: push
 
 jobs:
-    call-workflow-gemma:
-        uses: bgerelmaa/github-actions-basic-to-advance/.github/workflows/reusable-workflow.yaml@main
-
-    call-workflow-saptarshi:
-        uses: Saptarshi666/github-actions-basic-to-advance/.github/workflows/reusable-simple.yaml@main
+  call-resusableSaptarshi:
+    uses: Saptarshi666/github-actions-basic-to-advance/.github/workflows/mj.yml@main
+  call-reusable-workflow:
+    uses: bgerelmaa/github-actions-basic-to-advance/.github/workflows/reusable-workflow.yaml@main
+ 
