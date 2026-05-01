@@ -12,5 +12,13 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v2
 
-            - name: Run Composite Action developed by other team
+            - name: Run Composite Action developed by Saptarshi
               uses: Saptarshi666/github-actions-basic-to-advance/.github/actions/composite@main
+
+            - name: Run Composite Action developed by Gemma
+              uses: bgerelmaa/github-actions-basic-to-advance/.github/actions/composite@main
+
+            - name: Run Composite Action developed by Kourosh
+              uses: kooroshsajadi/github-actions-basic-to-advance/.github/actions/composite@main
+              
+              
